@@ -6,7 +6,7 @@ public class FileUploadService : IFileUploadService
 {
     private readonly IWebHostEnvironment _environment;
 
-    public FileUploadService(IWebHostEnvironment environment, ILogger<FileUploadService> logger)
+    public FileUploadService(IWebHostEnvironment environment)
     {
         _environment = environment;
     }
